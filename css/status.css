@@ -1,0 +1,31 @@
+.find_link{
+    text-decoration: none;
+    color : black;
+}
+.status_line{
+    display : flex;
+    justify-content: center;
+    margin: 5px 3px;
+}
+.status_line_colume{
+    display: flex;
+    width: 33%;
+}
+.status_line :nth-child(2){
+    justify-content: center;
+}  
+.status_line :last-child{
+    justify-content: flex-end;
+    align-items: center;
+}
+.battery{
+    margin: 0px 5px;
+}
+
+.status_line_colume .fa-battery-quarter{
+    margin-right:5px;
+}
+.login{
+    display: flex;
+    align-items: c;
+}
